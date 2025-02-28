@@ -1,0 +1,15 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "A simple Discord bot",
+  "main": "index.js",  // This should point to your main bot file (e.g., index.js)
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0"  // Adjust according to your bot's dependencies
+  },
+  "engines": {
+    "node": "16.x"  // Ensure this matches the version you're using
+  }
+}
